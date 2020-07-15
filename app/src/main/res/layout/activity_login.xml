@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textview_login_inskkagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inskkagram"
+        android:fontFamily="@font/main_title"
+        android:textColor="#FFF"
+        android:textSize="70sp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textview_login_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/main_text"
+            android:text="Username"
+            android:textColor="#FFF"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/editText_login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FFF"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textview_login_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/main_text"
+            android:text="Password"
+            android:textColor="#FFF"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/editText_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#FFF"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button_login_login"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/main_button"
+            android:fontFamily="@font/main_text_bold"
+            android:text="LOGIN"
+            android:textColor="#2196F3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView_login_account"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="You don't have a account?"
+            android:fontFamily="@font/main_text"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView_login_signup"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="SIGN UP"
+            android:fontFamily="@font/main_text_bold"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

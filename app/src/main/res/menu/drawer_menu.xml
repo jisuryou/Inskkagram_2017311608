@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_menu">
+    <item android:id="@+id/drawer_item1"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Full name" />
+    <item android:id="@+id/drawer_item2"
+        android:icon="@drawable/ic_date_range_black_24dp"
+        android:title="Birthday" />
+    <item android:id="@+id/drawer_item3"
+        android:icon="@drawable/ic_email_black_24dp"
+        android:title="E-mail" />
+</menu>
